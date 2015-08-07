@@ -14,6 +14,11 @@
 		A3DD25951B7386C9007A2E5A /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A3DD25941B7386C9007A2E5A /* Images.xcassets */; };
 		A3DD25981B7386C9007A2E5A /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = A3DD25961B7386C9007A2E5A /* LaunchScreen.xib */; };
 		A3DD25A41B7386C9007A2E5A /* ________Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = A3DD25A31B7386C9007A2E5A /* ________Tests.m */; };
+		A3DD25BF1B7389E6007A2E5A /* icon.bundle in Resources */ = {isa = PBXBuildFile; fileRef = A3DD25BE1B7389E6007A2E5A /* icon.bundle */; };
+		A3DD25C31B738A9E007A2E5A /* NSString+RYF.m in Sources */ = {isa = PBXBuildFile; fileRef = A3DD25C21B738A9E007A2E5A /* NSString+RYF.m */; };
+		A3FED2611B7393B0009067E6 /* UIView+RYF.m in Sources */ = {isa = PBXBuildFile; fileRef = A3FED2601B7393B0009067E6 /* UIView+RYF.m */; };
+		A3FED2641B739748009067E6 /* PassPayMentView.m in Sources */ = {isa = PBXBuildFile; fileRef = A3FED2631B739748009067E6 /* PassPayMentView.m */; };
+		A3FED2671B73A16F009067E6 /* PassPayMentInputView.m in Sources */ = {isa = PBXBuildFile; fileRef = A3FED2661B73A16F009067E6 /* PassPayMentInputView.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -40,6 +45,15 @@
 		A3DD259D1B7386C9007A2E5A /* 六位支付密码弹框Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "六位支付密码弹框Tests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		A3DD25A21B7386C9007A2E5A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		A3DD25A31B7386C9007A2E5A /* ________Tests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "________Tests.m"; sourceTree = "<group>"; };
+		A3DD25BE1B7389E6007A2E5A /* icon.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = icon.bundle; sourceTree = "<group>"; };
+		A3DD25C11B738A9E007A2E5A /* NSString+RYF.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+RYF.h"; sourceTree = "<group>"; };
+		A3DD25C21B738A9E007A2E5A /* NSString+RYF.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+RYF.m"; sourceTree = "<group>"; };
+		A3FED25F1B7393B0009067E6 /* UIView+RYF.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+RYF.h"; sourceTree = "<group>"; };
+		A3FED2601B7393B0009067E6 /* UIView+RYF.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+RYF.m"; sourceTree = "<group>"; };
+		A3FED2621B739748009067E6 /* PassPayMentView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PassPayMentView.h; sourceTree = "<group>"; };
+		A3FED2631B739748009067E6 /* PassPayMentView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PassPayMentView.m; sourceTree = "<group>"; };
+		A3FED2651B73A16F009067E6 /* PassPayMentInputView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PassPayMentInputView.h; sourceTree = "<group>"; };
+		A3FED2661B73A16F009067E6 /* PassPayMentInputView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PassPayMentInputView.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -81,6 +95,7 @@
 		A3DD25861B7386C9007A2E5A /* 六位支付密码弹框 */ = {
 			isa = PBXGroup;
 			children = (
+				A3DD25BD1B7389E6007A2E5A /* SixPaymentPassView */,
 				A3DD258B1B7386C9007A2E5A /* AppDelegate.h */,
 				A3DD258C1B7386C9007A2E5A /* AppDelegate.m */,
 				A3DD258E1B7386C9007A2E5A /* ViewController.h */,
@@ -117,6 +132,22 @@
 				A3DD25A21B7386C9007A2E5A /* Info.plist */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		A3DD25BD1B7389E6007A2E5A /* SixPaymentPassView */ = {
+			isa = PBXGroup;
+			children = (
+				A3DD25BE1B7389E6007A2E5A /* icon.bundle */,
+				A3DD25C11B738A9E007A2E5A /* NSString+RYF.h */,
+				A3DD25C21B738A9E007A2E5A /* NSString+RYF.m */,
+				A3FED25F1B7393B0009067E6 /* UIView+RYF.h */,
+				A3FED2601B7393B0009067E6 /* UIView+RYF.m */,
+				A3FED2621B739748009067E6 /* PassPayMentView.h */,
+				A3FED2631B739748009067E6 /* PassPayMentView.m */,
+				A3FED2651B73A16F009067E6 /* PassPayMentInputView.h */,
+				A3FED2661B73A16F009067E6 /* PassPayMentInputView.m */,
+			);
+			path = SixPaymentPassView;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -199,6 +230,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A3DD25BF1B7389E6007A2E5A /* icon.bundle in Resources */,
 				A3DD25931B7386C9007A2E5A /* Main.storyboard in Resources */,
 				A3DD25981B7386C9007A2E5A /* LaunchScreen.xib in Resources */,
 				A3DD25951B7386C9007A2E5A /* Images.xcassets in Resources */,
@@ -219,8 +251,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A3FED2671B73A16F009067E6 /* PassPayMentInputView.m in Sources */,
 				A3DD25901B7386C9007A2E5A /* ViewController.m in Sources */,
+				A3DD25C31B738A9E007A2E5A /* NSString+RYF.m in Sources */,
+				A3FED2611B7393B0009067E6 /* UIView+RYF.m in Sources */,
 				A3DD258D1B7386C9007A2E5A /* AppDelegate.m in Sources */,
+				A3FED2641B739748009067E6 /* PassPayMentView.m in Sources */,
 				A3DD258A1B7386C9007A2E5A /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -416,6 +452,7 @@
 				A3DD25A91B7386C9007A2E5A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		A3DD25AA1B7386C9007A2E5A /* Build configuration list for PBXNativeTarget "六位支付密码弹框Tests" */ = {
 			isa = XCConfigurationList;
@@ -424,6 +461,7 @@
 				A3DD25AC1B7386C9007A2E5A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
